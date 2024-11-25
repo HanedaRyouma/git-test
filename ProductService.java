@@ -16,6 +16,7 @@ public class ProductService {
     ProductRepository productRepository;
 
     public Iterable<Product> getAll(){
+        // テストコメント
         return productRepository.findAll();
     }
 
